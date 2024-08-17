@@ -9,6 +9,7 @@ import App.Dto.PersonDTO;
 import App.Dto.UserDTO;
 import App.Dto.PartnerDTO;
 import App.Dto.GuestDTO;
+import App.Dto.InvoiceDetailDTO;
 import Service.interfaces.AdminService;
 import Service.interfaces.LoginService;
 
@@ -52,7 +53,7 @@ public class Service implements LoginService, AdminService{
     }
     
     private void createPerson(PersonDTO personDto){
-    
+        
     }
 
     @Override
@@ -64,4 +65,7 @@ public class Service implements LoginService, AdminService{
     public void createGuest(UserDTO userDTO) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    @Override
+    public void Consumo (InvoiceDetailDTO invoiceDetail){}
 }

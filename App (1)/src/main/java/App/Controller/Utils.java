@@ -3,12 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package App.Controller.Validator;
+package App.Controller;
+
+import java.util.Scanner;
 
 /**
  *
  * @author Farley
  */
-public interface ControllerInterface {
-    public void session() throws Exception;
+public abstract class Utils {
+    private static Scanner reader = new Scanner (System.in);
+    
+    public static Scanner getReader(){
+        return reader;
+    }
 }

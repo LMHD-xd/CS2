@@ -1,6 +1,8 @@
 
-package App.Controller.Validator;
+package App.Controller;
 import App.Controller.Validator.PersonValidator;
+import App.Controller.Validator.PersonValidator;
+import App.Controller.Validator.UserValidator;
 import App.Controller.Validator.UserValidator;
 import App.Dto.PartnerDTO;
 import App.Dto.PersonDTO;
